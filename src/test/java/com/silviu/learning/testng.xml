@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "PS">
+    <test name = "test1.1">
+
+        <parameter name = "myName" value="Mimi" />
+
+        <classes>
+            <class name="com.silviu.learning.ParamsTest1" />
+        </classes>
+
+    </test>
+
+    <test name = "test1.2">
+
+        <parameter name = "myName" value="Gigi" />
+
+        <classes>
+            <class name="com.silviu.learning.ParamsTest1" />
+        </classes>
+
+    </test>
+
+    <test name = "test2">
+
+        <classes>
+            <class name="com.silviu.learning.ParamsTestDataProvider1" />
+        </classes>
+
+    </test>
+
+    <test name = "test3">
+
+        <classes>
+            <class name="com.silviu.learning.ParamsTestDataProvider2" />
+        </classes>
+
+    </test>
+
+    <test name="exampleTest1">
+
+        <classes>
+            <class name="com.silviu.learning.MessageUtilTest1" />
+        </classes>
+
+    </test>
+
+    <test name="exampleTest2">
+
+        <classes>
+            <class name="com.silviu.learning.MessageUtilTest2" />
+        </classes>
+
+    </test>
+
+    <test name="adnotationTest1">
+
+        <classes>
+            <class name="com.silviu.learning.AnnotationTests" />
+        </classes>
+
+    </test>
+
+</suite>

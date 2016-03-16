@@ -32,7 +32,7 @@ public class Ship {
         letters[6] = "g";
         this.coordAlpha = letters[(int) Math.floor(Math.random() * 8)];
     }
-
+// test
     public void setCoordNum() {
         this.coordNum = (int) Math.floor(Math.random() * 8);
     }
